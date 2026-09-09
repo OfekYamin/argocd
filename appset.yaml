@@ -17,7 +17,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: 
+        repoURL: https://github.com/OfekYamin/argocd.git
         targetRevision: appset
         path: '{{team}}/k8s-{{cluster}}'
       destination:
